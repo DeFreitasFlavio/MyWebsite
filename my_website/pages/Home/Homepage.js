@@ -10,10 +10,12 @@ import WrapperContent, { Text } from "./Homepage.style";
 
 const HomePage = () => {
   return (
-    <WrapperContent>
+    <>
       <Drawer />
-      <Text>Hello World!</Text>
-    </WrapperContent>
+      <WrapperContent>
+        <Text>Hello World!</Text>
+      </WrapperContent>
+    </>
   );
 };
 export default HomePage;

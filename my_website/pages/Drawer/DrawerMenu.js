@@ -10,6 +10,8 @@ import WrapperContent, {
   Text,
 } from "./DrawerMenu.style";
 
+import DrawerPause from "../../public/images/fast-forward.png";
+import DrawerPlay from "../../public/images/fast-forward.gif";
 import Home from "../../public/images/Home.png";
 import CV from "../../public/images/cv.png";
 import Projets from "../../public/images/projet.png";
@@ -17,6 +19,7 @@ import ExperienceProfesionnel from "../../public/images/formation.png";
 
 const DrawerMenu = () => {
   const [visible, setVisible] = useState(false);
+  const [play, setPlay] = useState(false);
 
   const showDrawer = () => {
     setVisible(true);
@@ -28,15 +31,16 @@ const DrawerMenu = () => {
 
   return (
     <>
-      <Button type="primary" onClick={showDrawer}>
-        Open
+      <Button>
+        <Image
+          class="freeze"
+          src={DrawerPlay}
+          type="primary"
+          onClick={showDrawer}
+        />
       </Button>
-      <Drawer
-        title="Basic Drawer"
-        placement="left"
-        onClose={onClose}
-        visible={visible}
-      >
+
+      <Drawer placement="right" onClose={onClose} visible={visible}>
         <WrapperContent>
           <WrapperHome
             onClick={() => {

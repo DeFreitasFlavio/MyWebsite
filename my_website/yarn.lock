@@ -1055,6 +1055,11 @@
     "combined-stream" "^1.0.8"
     "mime-types" "^2.1.12"
 
+"freezeframe@^5.0.2":
+  "integrity" "sha512-Lp1ltC2vJGBqxdW5U4Hx+JMW+s9KfTPpxKhSTlpmQxYX5oK66y3GIZo56Jie4XtSOApSbfc8SBcsbZzeTNKfFg=="
+  "resolved" "https://registry.npmjs.org/freezeframe/-/freezeframe-5.0.2.tgz"
+  "version" "5.0.2"
+
 "fs.realpath@^1.0.0":
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"

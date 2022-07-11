@@ -20,3 +20,20 @@ a {
 [data-theme="compact"] .ant-drawer-body p {
   margin-bottom: 0;
 }
+
+.ant-btn,
+.ant-btn-primary {
+  background-color: white;
+  border: none;
+  margin: 20px;
+  padding: 0;
+  width: 46px;
+  height: 46px;
+  color: white;
+}
+img.freeze {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+}
